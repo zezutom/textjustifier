@@ -21,4 +21,4 @@ Donec  in  sodales est. Sed eros magna, egestas vitae varius vitae, viverra eget
 lacus.   Donec   vel   magna   non   neque   convallis  congue  sed  eget  urna.
 ```
 
-This class is all you need, enjoy: [TextJustifier](../master/src/main/java/org/zezutom/justification/TextJustifier.java)
+This class is all you need, enjoy: [TextJustifier.java](../master/src/main/java/org/zezutom/justification/TextJustifier.java)
