@@ -1,10 +1,10 @@
 Text Full Justification
 =======================
 
-This is my implementation of a full text justification, example:
+Here is an implementation of a full text justification, usage:
 
 ```java
-String text = "Lorem impsum..." // etc. we all know how it goes
+String text = "Lorem ipsum..." // etc. we all know how it goes
 
 // Let's create a block 80 characters wide
 System.out.println(new TextJustifier().justify(text, 80));
