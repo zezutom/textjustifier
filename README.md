@@ -4,7 +4,7 @@ Text Full Justification
 Here is an implementation of a full text justification, usage:
 
 ```java
-String text = "Lorem ipsum..." // etc. we all know how it goes
+String text = "Lorem ipsum..." // etc.
 
 // Let's create a block 80 characters wide
 System.out.println(new TextJustifier().justify(text, 80));
