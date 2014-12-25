@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-// http://forums.anandtech.com/showthread.php?t=1001858
 public class TextJustifier {
 
     public String justify(String text, int width) {
@@ -93,6 +92,6 @@ public class TextJustifier {
     public static void main(String[] args) {
         String text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare non massa id sodales. Nunc in erat suscipit, rutrum leo eu, molestie elit. Nullam id risus nulla. Cras varius libero at ultrices rutrum. Sed imperdiet eleifend massa sed tincidunt. Phasellus vulputate nisl ex, quis varius risus pellentesque in. Aenean hendrerit velit vitae nisi rhoncus dignissim. Integer in rutrum turpis. Donec in sodales est. Sed eros magna, egestas vitae varius vitae, viverra eget lacus. Donec vel magna non neque convallis congue sed eget urna.";
 
-        System.out.println(new TextJustifier().justify(text, 50));
+        System.out.println(new TextJustifier().justify(text, 80));
     }
 }
